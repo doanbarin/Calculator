@@ -1,7 +1,7 @@
 package app1;
 
 public class Calculator extends javax.swing.JFrame {
-    private int result=0;
+    private double result=0;
     private int press=0;
     private void temp()
     {
