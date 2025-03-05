@@ -180,6 +180,7 @@ public class Calculator extends javax.swing.JFrame {
     }//GEN-LAST:event_rfsBtnActionPerformed
 
     private void resultBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resultBtnActionPerformed
+        //cần bắt lỗi chữ ngay khi ấn =
         calculate();
         NumText.setText(String.valueOf(result));
     }//GEN-LAST:event_resultBtnActionPerformed
