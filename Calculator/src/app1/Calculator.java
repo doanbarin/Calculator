@@ -174,6 +174,7 @@ public class Calculator extends javax.swing.JFrame {
     }//GEN-LAST:event_timeBtnActionPerformed
 
     private void rfsBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rfsBtnActionPerformed
+        //bạn cần settext Khi đã refresh nhưng không xóa hiện thông báo "Error: Division by zero"
         result=0;
         NumText.setText("");
         //Khi đã refresh nhưng không xóa hiện thông báo "Error: Division by zero"
