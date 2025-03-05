@@ -12,6 +12,7 @@ public class Calculator extends javax.swing.JFrame {
     }
     private void calculate()
     {
+        //tôi nghĩ bạn nên dùng switch case
         if(press==1)
         {
             result = result+Integer.parseInt(NumText.getText());
