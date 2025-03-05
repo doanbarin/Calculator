@@ -28,6 +28,7 @@ public class Calculator extends javax.swing.JFrame {
         {
             result = result*Integer.parseInt(NumText.getText());
         }
+        //thêm check lỗi chia 0
     }
     public Calculator() {
         initComponents();
